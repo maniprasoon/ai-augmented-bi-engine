@@ -20,18 +20,18 @@ This system goes further by automatically identifying **root causes of change** 
 
 ## 🧠 Architecture
 
-Olist Transactional Data (CSV)
-↓
-Python (Data Cleaning, KPIs, Change Detection)
-↓
-Gemini LLM (Executive Insights)
-↓
-Power BI (Decision-Focused Dashboards)
+**Decision-Driven Analytics Pipeline**
 
-yaml
-Copy code
+Olist Transactional Data (CSV)  
+→ Python (Data Cleaning, KPI Computation, Change Detection)  
+→ Gemini LLM (Executive Insights & Recommendations)  
+→ Power BI (Decision-Focused Dashboards)
+
+This architecture is designed to move beyond static reporting and enable
+**explainable, action-oriented business intelligence**.
 
 ---
+
 
 ## 🛠️ Tech Stack
 
@@ -95,33 +95,31 @@ These datasets simulate a **production-grade business environment** with multi-t
 
 ## 📂 Project Structure
 
+```text
 ai-augmented-bi-engine/
 │
 ├── data/
-│ ├── olist_orders_dataset.csv
-│ ├── olist_order_items_dataset.csv
-│ ├── olist_order_payments_dataset.csv
-│ └── olist_customers_dataset.csv
+│   ├── olist_orders_dataset.csv
+│   ├── olist_order_items_dataset.csv
+│   ├── olist_order_payments_dataset.csv
+│   └── olist_customers_dataset.csv
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_kpi_engine.ipynb
-│ ├── 03_change_detection.ipynb
-│ └── 04_gemini_insights.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_kpi_engine.ipynb
+│   ├── 03_change_detection.ipynb
+│   └── 04_gemini_insights.ipynb
 │
 ├── outputs/
-│ ├── master_table.csv
-│ ├── kpis.csv
-│ ├── change_analysis.csv
-│ └── insights.txt
+│   ├── master_table.csv
+│   ├── kpis.csv
+│   ├── change_analysis.csv
+│   └── insights.txt
 │
 ├── README.md
 └── .gitignore
+```
 
-yaml
-Copy code
-
----
 
 ## 💡 Why This Project Matters
 
@@ -142,3 +140,4 @@ Copy code
 
 - API keys are excluded for security.
 - This project is designed for **Data Analyst / Business Analyst roles**.
+
