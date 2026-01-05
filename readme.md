@@ -129,15 +129,3 @@ ai-augmented-bi-engine/
 - Mirrors how analytics is used in real business environments
 
 ---
-
-## 📌 Resume Summary (One-Liner)
-
-> Built an AI-augmented BI system using Python, Power BI, and Gemini LLMs to detect revenue changes, identify root causes, and generate executive-ready decision insights.
-
----
-
-## 📬 Notes
-
-- API keys are excluded for security.
-- This project is designed for **Data Analyst / Business Analyst roles**.
-
